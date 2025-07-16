@@ -5,7 +5,7 @@ document.getElementById('toggleButton').addEventListener('click', function() {
     console.log(image);
     console.log(button);
     if (image.src.includes('bruh.jpg')) {
-        image.src = 'img/SHORDAN.jpg';
+        image.src = 'img/shordan.jpg';
         button.textContent = 'Revert';
     } else {
         image.src = 'img/bruh.jpg';
